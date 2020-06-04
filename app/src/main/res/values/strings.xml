@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">FormularioContacto</string>
+
+    MAIN ACTIVITY
+    <string name="nombre">Nombre completo</string>
+    <string name="telefono">Teléfono</string>
+    <string name="email">Email</string>
+    <string name="descripcion">Descripción contacto</string>
+    <string name="btnSiguiente">Siguiente</string>
+
+    ConfirmarDatos
+    <string name="titulo">Confirmar Datos</string>
+    <string name="btnEditar">Editar Datos</string>
+
+    NombresExtras
+    <string name="eNombre">Nombre</string>
+    <string name="eFecNac">FecNac</string>
+    <string name="eTelefono">Telefono</string>
+    <string name="eEmail">Email</string>
+    <string name="eDescripcion">Descripcion</string>
+
+</resources>

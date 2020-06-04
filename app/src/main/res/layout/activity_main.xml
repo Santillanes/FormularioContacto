@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/txtNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/nombre"
+        android:layout_marginTop="20dp" />
+
+
+    <androidx.appcompat.widget.AppCompatCheckedTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Fecha de nacimiento"
+        android:layout_gravity="center_horizontal"/>
+    <DatePicker
+        android:id="@+id/dpFecNac"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:calendarTextColor="@color/colorAccent"
+        android:calendarViewShown="false"
+        android:datePickerMode="spinner"
+        android:headerBackground="@color/colorPrimary"
+        android:maxDate="2020"
+        android:minDate="1900"
+        android:yearListSelectorColor="@color/colorAccent"
+        android:focusable="false"
+        android:clickable="true"
+        android:inputType="date"/>
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/txtTelefono"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/telefono"
+        android:layout_marginTop="15dp"/>
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/txtEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/email"
+        android:layout_marginTop="15dp"
+        android:inputType="text"/>
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/txtDescripcion"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:hint="@string/descripcion"
+        android:layout_marginTop="15dp"
+        android:inputType="text"/>
+    <Button
+        android:id="@+id/btnSiguiente"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="@string/btnSiguiente"
+        android:background="@color/colorAccent"
+        android:theme="@style/MiBotonRaised"
+        android:onClick="siguiente"/>
+
+
+
+
+</LinearLayout>
